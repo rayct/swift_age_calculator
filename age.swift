@@ -67,3 +67,8 @@ let nextBirthdayDate = Calendar.current.nextDate(after: Date(), matching: nextBi
 let daysUntilNextBirthdayComponents = Calendar.current.dateComponents([.day], from: Date(), to: nextBirthdayDate)
 guard let daysUntilNextBirthday = daysUntilNextBirthdayComponents.day else {
     fatalError("Failed to calculate days until next birthday")
+}
+
+print("You were born on a \(birthdate.dayOfWeek()!).")
+print("You are currently \(age) years old.")
+print("Your next birthday is in \(daysUntilNextBirthday) days.")
