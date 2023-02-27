@@ -5,7 +5,7 @@
 ## To use the program, simply run it in a MacOs XCode IDE or code editor environment and follow the prompts.
 
 
-# Version: 1.0.2
+# Version: 1.0.1
 ## To optimize the code, we can simplify the logic for calculating the date of the next birthday using Calendar's nextDate(after:matching:matchingPolicy:) method.
 
 
